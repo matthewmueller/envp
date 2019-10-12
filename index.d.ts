@@ -28,3 +28,5 @@ interface ValidOutput {
 
 declare function Env<T extends ValidInput>(config: T): Output<T>
 declare function Env<T extends ValidOutput>(config: Output<T>): T
+
+export = Env
