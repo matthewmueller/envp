@@ -1,9 +1,9 @@
-# Envio
+# Envp
 
 Dead simple environment parser for your app
 
 ```js
-const Env = require('envio')
+const Env = require('envp')
 const assert = require('assert')
 
 const env = Env({
@@ -20,7 +20,7 @@ assert.deepEqual(env, {
 ## Install
 
 ```sh
-npm install envio
+npm install envp
 ```
 
 ## License
