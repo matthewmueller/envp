@@ -1,0 +1,11 @@
+{
+  "name": "envio",
+  "version": "1.0.0",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "license": "MIT",
+  "devDependencies": {
+    "execa": "2.1.0",
+    "mocha": "6.2.1"
+  }
+}
