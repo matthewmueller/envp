@@ -7,8 +7,8 @@ const Env = require('envp')
 const assert = require('assert')
 
 const env = Env({
-  NODE_ENV: String, //
-  PORT: 3000, // default 3000
+  NODE_ENV: String, // must be a string
+  PORT: 3000, // must be a number, defaults to 3000
 })
 
 assert.deepEqual(env, {
